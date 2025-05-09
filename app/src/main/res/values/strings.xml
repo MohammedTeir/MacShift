@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Strings -->
+    <string name="app_name">MAC Shift</string>
+    <string name="current_mac">Current MAC Address:</string>
+    <string name="random_mac">Random MAC</string>
+    <string name="custom_mac">Set Custom MAC</string>
+    <string name="restore_mac">Restore Original MAC</string>
+    <string name="enter_mac">Enter MAC address (e.g., 00:11:22:33:44:55)</string>
+    <string name="mac_invalid">Invalid MAC address format.</string>
+    <string name="mac_applied">MAC address applied successfully.</string>
+    <string name="mac_restore_success">MAC address restored.</string>
+    <string name="mac_restore_fail">Failed to restore MAC address.</string>
+    <string name="spoof_on_boot">Spoof on Boot</string>
+    <string name="root_access">Root Access:</string>
+    <string name="granted">Granted</string>
+    <string name="denied">Denied</string>
+    <string name="mac_saved">Saved MAC profile</string>
+    <string name="mac_applied_from_profile">Applied saved MAC profile</string>
+</resources>

@@ -1,0 +1,23 @@
+<!-- File: res/layout/view_mac_info_display.xml -->
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/text_mac_address"
+    style="?attr/textAppearanceBody1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MAC: --:--:--:--:--:--" />
+
+<TextView
+    android:id="@+id/text_root_status"
+    style="?attr/textAppearanceCaption"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Root Access: Checking..." />
+
+</LinearLayout>
+

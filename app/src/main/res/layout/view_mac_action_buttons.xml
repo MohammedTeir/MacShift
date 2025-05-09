@@ -1,0 +1,29 @@
+<!-- File: res/layout/view_mac_action_buttons.xml -->
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="16dp">
+
+<Button
+    android:id="@+id/button_random_mac"
+    style="?attr/borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Random MAC" />
+
+<Button
+    android:id="@+id/button_custom_mac"
+    style="?attr/borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Custom MAC" />
+
+<Button
+    android:id="@+id/button_restore_mac"
+    style="?attr/borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Restore MAC" />
+
+</LinearLayout>

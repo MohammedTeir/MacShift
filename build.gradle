@@ -1,0 +1,16 @@
+// build.gradle (Project-level)
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2" // Update as per your Android Gradle plugin version
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0" // Use the appropriate Kotlin version
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
